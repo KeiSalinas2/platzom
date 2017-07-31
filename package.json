@@ -2,14 +2,18 @@
   "name": "platzom",
   "version": "0.1.0",
   "description": "Platzom language translate",
-  "main": "index.js",
+  "main": "dist/src/platzom.js",
   "scripts": {
+    "build": "babel src/platzom.js -d dist"
   },
   "keywords": [
     "platzom",
-    "platzi",
     "javascript"
   ],
   "author": "Keily Salinas",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0"
+  }
 }
