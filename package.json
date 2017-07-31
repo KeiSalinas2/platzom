@@ -1,0 +1,15 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "Platzom language translate",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [
+    "platzom",
+    "platzi",
+    "javascript"
+  ],
+  "author": "Keily Salinas",
+  "license": "MIT"
+}
