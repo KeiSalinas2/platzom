@@ -4,7 +4,8 @@
   "description": "Platzom language translate",
   "main": "dist/src/platzom.js",
   "scripts": {
-    "build": "babel src/platzom.js -d dist"
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
   },
   "keywords": [
     "platzom",
@@ -14,6 +15,8 @@
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.24.1",
-    "babel-preset-env": "^1.6.0"
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2"
   }
 }
